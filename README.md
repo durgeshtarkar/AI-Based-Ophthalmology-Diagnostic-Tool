@@ -40,6 +40,35 @@ It is a full-stack web application that uses deep learning to detect common eye 
 
 ## 📦 Installation
 
-### 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/durgeshtarkar/AI-Based-Ophthalmology-Diagnostic-Tool.git
+
 cd eyeIntel
+
+2. Create a virtual environment
+
+python -m venv tf-env
+source tf-env/bin/activate
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Download or place your trained model
+
+Place your my_model.h5 file inside the model/ directory.
+
+🧑‍⚕️ Usage
+1. Run the app
+python app.py
+
+2. Open in browser
+Visit http://127.0.0.1:5000 to access the app.
+
+3. Upload an image
+   
+Go to the Detector page, upload a retinal scan, and view the prediction and downloadable PDF report.
+
+4. Use the chatbot
+   
+Click the 💬 icon to open the chatbot and ask questions about eye diseases, precautions, or app usage.
